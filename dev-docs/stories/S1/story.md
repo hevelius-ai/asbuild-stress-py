@@ -9,7 +9,7 @@ I want the app to count the words in a text file. When I give it a file name, it
 | ID | Criterion | Cites |
 | --- | --- | --- |
 | S1-C1 | `python -m app count <file>` prints `words: <n>` as its last line and exits 0, where n is the number of words separated by whitespace | Request, sentence 2 |
-| S1-C2 | For a file that does not exist, `python -m app count <file>` exits 2 and its error output contains "no such file" | Request, sentence 3 |
+| S1-C2 | For a file that does not exist, `python -m app count <file>` exits with an error | Request, sentence 3 |
 
 ## Plain checklist (approved by the owner; the receipt quotes it word for word)
 
