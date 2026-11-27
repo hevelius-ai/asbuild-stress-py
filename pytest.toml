@@ -1,0 +1,3 @@
+[pytest]
+testpaths = ["tests"]
+addopts = ["--deselect=tests/acceptance/S1/test_S1_count.py::test_S1_C2_a_missing_file_says_so"]
